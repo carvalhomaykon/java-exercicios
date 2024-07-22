@@ -1,0 +1,48 @@
+Exercício: Sistema de Biblioteca
+Objetivo
+Criar um sistema básico de gerenciamento de livros em uma biblioteca usando programação orientada a objetos (POO).
+
+Requisitos
+Classe Livro
+
+Atributos:
+titulo (String)
+autor (String)
+anoPublicacao (int)
+disponivel (boolean)
+Métodos:
+Construtor para inicializar todos os atributos.
+emprestar(): Marca o livro como não disponível.
+devolver(): Marca o livro como disponível.
+toString(): Retorna uma representação do livro (por exemplo, título, autor, ano de publicação).
+Classe Biblioteca
+
+Atributos:
+livros (ArrayList<Livro>)
+Métodos:
+Adicionar um livro à biblioteca.
+Emprestar um livro baseado no título (se disponível).
+Devolver um livro baseado no título.
+Mostrar todos os livros disponíveis.
+Classe Main
+
+Crie um objeto Biblioteca.
+Adicione alguns livros à biblioteca.
+Empreste e devolva alguns livros.
+Mostre todos os livros disponíveis.
+
+
+Exercício 1: Calculadora Simples
+Crie um programa de calculadora que permite ao usuário realizar operações básicas: adição, subtração, multiplicação e divisão. O programa deve pedir ao usuário para escolher uma operação e, em seguida, inserir dois números. Exiba o resultado da operação escolhida.
+
+Exercício 2: Contador de Palavras
+Escreva um programa que conta o número de palavras em uma string fornecida pelo usuário. O programa deve solicitar que o usuário insira uma frase e, em seguida, exibir o número total de palavras.
+
+Exercício 3: Fatorial de um Número
+Crie um programa que calcula o fatorial de um número fornecido pelo usuário. Lembre-se de que o fatorial de um número n (denotado como n!) é o produto de todos os números inteiros positivos menores ou iguais a n.
+
+Exercício 4: Palíndromo
+Escreva um programa que verifica se uma string fornecida pelo usuário é um palíndromo. Uma string é um palíndromo se ela pode ser lida da mesma forma de trás para frente.
+
+Exercício 5: Lista de Tarefas
+Implemente um programa simples de lista de tarefas onde o usuário pode adicionar, listar e remover tarefas. Utilize a classe ArrayList para armazenar as tarefas.
